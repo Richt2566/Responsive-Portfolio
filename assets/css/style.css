@@ -457,3 +457,55 @@ footer {
 	}
 
 }
+
+@media screen and (max-width: 450px) {
+	.main-content {
+		width: 100%;
+	}
+
+	.top h1 {
+		text-align: center;
+	}
+
+	nav {
+		margin-left: -15px;
+	}
+
+	ul {
+		margin-right: 0px;
+	}
+
+	nav li {
+		margin: 0px;
+		padding: 0px
+	}
+
+	li a {
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	section {
+		width: 345px;
+		margin: 10px;
+	}
+
+	section p {
+		display: block;
+	}
+
+	.gallery {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
+	.connect {
+		margin-left: 10px;
+		padding-right: 30px;
+	}
+		.connect2 {
+		margin-left: 10px;
+		padding-right: 30px;
+
+	}
+}
