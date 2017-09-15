@@ -469,10 +469,15 @@ footer {
 
 	nav {
 		margin-left: -15px;
+		display: inline;
+	}
+	.last-link {
+		margin-right: 80px;
 	}
 
-	ul {
-		margin-right: 0px;
+	ul li {
+		margin: 0px;
+		font-size: 15px;
 	}
 
 	nav li {
@@ -486,8 +491,8 @@ footer {
 	}
 
 	section {
-		width: 345px;
-		margin: 10px;
+		width: 330px;
+		margin: 10px 0px 0px 10px;
 	}
 
 	section p {
@@ -496,7 +501,7 @@ footer {
 
 	.gallery {
 		padding-left: 0px;
-		margin-left: 0px;
+		margin-left: -5px;
 	}
 
 	.connect {
@@ -506,6 +511,85 @@ footer {
 		.connect2 {
 		margin-left: 10px;
 		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.main-content {
+		width: 100%;
+	}
+
+	.top h1 {
+		text-align: center;
+	}
+
+	nav {
+		margin-left: -15px;
+		display: inline;
+	}
+	.last-link {
+		margin-right: 55px;
+	}
+
+	ul li {
+		margin: 0px;
+		font-size: 15px;
+	}
+
+	nav li {
+		margin: 0px;
+		padding: 0px
+	}
+
+	li a {
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	section {
+		width: 270px;
+		margin: 10px 0px 0px 10px;
+	}
+
+	section p {
+		display: block;
+	}
+
+	.gallery {
+		padding-left: 0px;
+		margin-left: -10px;
+	}
+
+	.connect {
+		margin-left: 10px;
+		padding-right: 30px;
+	}
+		.connect2 {
+		margin-left: 10px;
+		padding-right: 30px;
+	}
+		/* Portfolio */
+
+	.image1 {
+		width: 260px;
+		height: 230px;
+	
+	}
+
+	.image1 img {
+		width: 260px;
+		height: 230px;
+	}
+
+	.frame {
+		width: 260px
+		height: 230px;
 
 	}
+
+	.caption1 {
+		top: 150px; 
+		padding: 10px;
+	}
+
 }
